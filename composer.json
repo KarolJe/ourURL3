@@ -1,0 +1,31 @@
+{
+  "name": "projektlaravel/our-url",
+  "description": "First test Package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Karol Jędrusik",
+      "email": "k.jedrusik@saigy.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Projektlaravel\\ourURL\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Projektlaravel\\ourURL\\ourUrlServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
